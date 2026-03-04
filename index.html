@@ -19,6 +19,48 @@
     font-size: 14px !important; /* ajuste ici */
   }
 }
+
+style>
+/* ===== FIX RESPONSIVE MOBILE ===== */
+@media (max-width: 768px) {
+
+  /* CENTRER LES TITRES & TEXTES */
+  h1, h2, h3, p, a {
+    text-align: center !important;
+  
+
+  /* CENTRER LES BOUTONS */
+  .u-btn, button, a.u-btn {
+    display: inline-block !important;
+    margin: 10px auto !important;
+    text-align: center !important;
+  }
+
+  /* RÉDUIRE LES TAILLES DE POLICE */
+  h1 {
+    font-size: 28px !important;
+  }
+  h2 {
+    font-size: 22px !important;
+  }
+  p {
+    font-size: 15px !important;
+  }
+
+  /* ASSURER QUE LES IMAGES NE DÉPASSENT PAS */
+  img {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
+  /* CORRIGER LES MARGES DES SECTIONS */
+  .u-section {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+
+
+</style>
 </style>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">

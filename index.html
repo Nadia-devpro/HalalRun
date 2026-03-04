@@ -2,49 +2,46 @@
 <html style="font-size: 16px;" lang="fr"><head>
   <style>
 style>
-/* ===== CORRECTION MOBILE HALALRUN ===== */
-@media only screen and (max-width: 768px) {
+/* ===== FIX RESPONSIVE MOBILE ===== */
+@media (max-width: 768px) {
 
-  /* Réduire et centrer le texte "Votre repas en 1 clic" */
-  .votre-repas {
-    font-size: 20px !important;   /* Ajuste selon le rendu */
+  /* CENTRER LES TITRES & TEXTES */
+  h1, h2, h3, p, a {
     text-align: center !important;
-    margin: 10px auto !important;
   
 
-  /* Centrer tous les boutons */
+  /* CENTRER LES BOUTONS */
   .u-btn, button, a.u-btn {
     display: inline-block !important;
     margin: 10px auto !important;
     text-align: center !important;
   }
 
-  /* Footer centré et images responsives */
-  footer, footer .u-section, footer .u-container {
-    text-align: center !important;
-    padding-left: 15px !important;
-    padding-right: 15px !important;
+  /* RÉDUIRE LES TAILLES DE POLICE */
+  h1 {
+    font-size: 28px !important;
+  }
+  h2 {
+    font-size: 22px !important;
+  }
+  p {
+    font-size: 15px !important;
   }
 
-  footer img {
-    max-width: 120px !important;
+  /* ASSURER QUE LES IMAGES NE DÉPASSENT PAS */
+  img {
+    max-width: 100% !important;
     height: auto !important;
-    margin: 10px auto !important;
-    display: block !important;
   }
 
-  footer a {
-    display: block !important;
-    margin: 5px auto !important;
-  }
-
-  footer p {
-    font-size: 14px !important;
+  /* CORRIGER LES MARGES DES SECTIONS */
+  .u-section {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
   }
 
 
 </style>
-
 
 
 </style>

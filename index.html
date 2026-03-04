@@ -2,11 +2,11 @@
 <html style="font-size: 16px;" lang="fr"><head>
   <style>
 style>
-/* ===== FIX RESPONSIVE MOBILE ===== */
-@media (max-width: 750px) {
+/* ===== FIX RESPONSIVE MOBILE HALALRUN ===== */
+@media only screen and (max-width: 768px) {
 
   /* CENTRER LES TITRES & TEXTES */
-  h1, h2, h3, p, a {
+  h1, h2, h3, p {
     text-align: center !important;
   
 
@@ -17,27 +17,33 @@ style>
     text-align: center !important;
   }
 
-  /* RÉDUIRE LES TAILLES DE POLICE */
-  h1 {
-    font-size: 26px !important;
-  }
-  h2 {
-    font-size: 22px !important;
-  }
-  p {
-    font-size: 15px !important;
+  /* PIED DE PAGE */
+  footer, footer .u-section, footer .u-container {
+    text-align: center !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
   }
 
-  /* ASSURER QUE LES IMAGES NE DÉPASSENT PAS */
+  footer img {
+    max-width: 120px !important;
+    height: auto !important;
+    margin: 10px auto !important;
+    display: block !important;
+  }
+
+  footer a {
+    display: block !important;
+    margin: 5px auto !important;
+  }
+
+  footer p {
+    font-size: 14px !important;
+  }
+
+  /* IMAGES RESPONSIVES */
   img {
     max-width: 100% !important;
     height: auto !important;
-  }
-
-  /* CORRIGER LES MARGES DES SECTIONS */
-  .u-section {
-    padding-left: 10px !important;
-    padding-right: 10px !important;
   }
 
 
